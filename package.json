@@ -1,0 +1,20 @@
+{
+  "name": "angular2-ace",
+  "version": "0.0.1",
+  "description": "angular2 components for ace editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lon-yang/angular2-ace.git"
+  },
+  "keywords": [],
+  "author": "Lon.L.Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lon-yang/angular2-ace/issues"
+  },
+  "homepage": "https://github.com/lon-yang/angular2-ace#readme"
+}
