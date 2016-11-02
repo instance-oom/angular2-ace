@@ -5,9 +5,21 @@ import { IAceEditorOption } from './ace-editor.interface';
 declare var ace: any;
 
 @Component({
-  selector: 'l-aceEditor',
-  templateUrl: './ace-editor.html',
-  styleUrls: ['./ace-editor.css'],
+  selector: 'l-ace-editor',
+  template: `<div class="l-editor"></div>`,
+  styles: [`
+    :host {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    :host .l-editor {
+      width: 100%;
+      height: 100%;
+      min-height: 50px;
+    }
+  `],
   providers: [{
     provide: NG_VALUE_ACCESSOR,
     useExisting: forwardRef(() => LAceEditorComponent),

@@ -1,6 +1,6 @@
 {
   "name": "angular2-ace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "angular2 components for ace editor",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/lon-yang/angular2-ace/issues"
   },
   "homepage": "https://github.com/lon-yang/angular2-ace#readme",
-  "optionalDependencies": {
+  "peerDependencies": {
     "@angular/core": "^2.1.2",
     "@angular/forms": "^2.1.2"
   }

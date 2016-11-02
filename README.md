@@ -26,7 +26,7 @@ export class AppModule { }
 
 ## Template
 ```html
-<l-aceEditor [mode]="mode" [options]="aceOption" [(ngModel)]="editValue"></l-aceEditor>
+<l-ace-editor [mode]="mode" [options]="aceOption" [(ngModel)]="editValue"></l-ace-editor>
 ```
 
 ## Typescript
@@ -35,7 +35,7 @@ export class AppComponent {
 
   private aceOption: any;
   private mode: string = "text";
-  private value: string = "hello";
+  private editValue: string = "hello";
 
   constructor() {
 
