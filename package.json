@@ -1,6 +1,6 @@
 {
   "name": "angular2-ace",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "angular2 components for ace editor",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,13 @@
   },
   "keywords": [],
   "author": "Lon.L.Yang",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lon-yang/angular2-ace/issues"
   },
-  "homepage": "https://github.com/lon-yang/angular2-ace#readme"
+  "homepage": "https://github.com/lon-yang/angular2-ace#readme",
+  "optionalDependencies": {
+    "@angular/core": "^2.1.2",
+    "@angular/forms": "^2.1.2"
+  }
 }
